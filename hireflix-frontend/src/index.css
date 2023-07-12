@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🌟 Custom global styles */
+body {
+  @apply bg-gray-50 font-sans text-gray-800;
+}
+
+input, button {
+  @apply rounded-md border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:outline-none;
+}
+
+button {
+  @apply bg-indigo-600 text-white px-4 py-2 font-medium hover:bg-indigo-700 transition-colors;
+}
